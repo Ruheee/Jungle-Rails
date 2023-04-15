@@ -62,11 +62,14 @@ ActiveRecord::Schema.define(version: 2023_04_19_204507) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+<<<<<<< HEAD
   create_table "widgets", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
+=======
+>>>>>>> eb6a9e795893943768233381ce3a3bbe3c8e08dc
   add_foreign_key "line_items", "orders"
   add_foreign_key "line_items", "products"
   add_foreign_key "products", "categories"
